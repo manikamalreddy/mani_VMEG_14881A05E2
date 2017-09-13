@@ -39,7 +39,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		if(this.students == null)
 		{
-		throw new IllegalArgumentException();
+			throw new IllegalArgumentException();
 		}	
 	}
 
