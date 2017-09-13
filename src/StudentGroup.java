@@ -37,34 +37,34 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		if(this.students == null)
-		{
-			throw new IllegalArgumentException();
-		}	
+		//if(this.students == null)
+		//{
+		//	throw new IllegalArgumentException();
+		//}	
 	}
 
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		if(index < 0 || index >= this.students.length)
-		{
-			throw new IllegalArgumentException();
-		}
-		return this.Student[index];
+		//if(index < 0 || index >= this.students.length)
+		//{
+		//	throw new IllegalArgumentException();
+		//}
+		//return this.Student[index];
 	}
 
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
-		if(this.students == null)
-		{
-			throw new IllegalArgumentException();
-		}
-		if(index < 0 || index >= this.students.length)
-		{
-			throw new IllegalArgumentException();
-		}
-		this.Student[index]=student;
+		//if(this.students == null)
+		//{
+		//	throw new IllegalArgumentException();
+		//}
+		//if(index < 0 || index >= this.students.length)
+		//{
+		//	throw new IllegalArgumentException();
+		//}
+		//this.Student[index]=student;
 	}
 
 	@Override
